@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تحويل الصور إلى PDF</title>
+  <link rel="stylesheet" href="style.css">
+  <img src="C:\Users\Admin\Downloads\Photo.jpg" alt="صورة من Downloads" width="400">
+
+</head>
+<body>
+
+  <div class="container">
+    <h1>محول الصور إلى PDF</h1>
+    <p>اختر الصور التي ترغب في تحويلها إلى PDF</p>
+    <div class="file-input">
+      <label for="imageInput" class="custom-file-label">اختر الصور</label>
+      <input type="file" id="imageInput" multiple accept="image/*">
+    </div>
+    <button id="convertBtn">تحويل إلى PDF</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

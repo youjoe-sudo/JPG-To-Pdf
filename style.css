@@ -1,0 +1,82 @@
+/* تنسيق الصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a86ec;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background: rgb(238, 164, 5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(6, 223, 71, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+  h1 {
+    color: #000000;
+  }
+  
+  p {
+    color: #020202;
+  }
+  
+  /* زر تحويل إلى PDF */
+  button {
+    background: linear-gradient(90deg, #00b7ff, #ff7a28);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(54, 4, 238, 0.2);
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #ff8c42, #ff6f61);
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: scale(0.95) translateY(2px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* زر اختيار الصور */
+  input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-label {
+    background: linear-gradient(45deg, #e67104, #1e88e5);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .custom-file-label:hover {
+    background: linear-gradient(45deg, #1e88e5, #42a5f5);
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .custom-file-label:active {
+    transform: scale(0.95) translateY(2px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
